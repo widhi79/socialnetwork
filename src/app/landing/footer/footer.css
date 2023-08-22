@@ -1,0 +1,23 @@
+.footer {
+    background-color: #ec3939;
+    padding: 20px;
+    border-top: 1px solid #fff; /* Garis atas */
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .footer-row {
+    margin-bottom: 10px;
+  }
+
+  .footer-row a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+  .footer-row i {
+    font-size: 24px;
+    margin-right: 15px;
+  }

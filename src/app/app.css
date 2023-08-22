@@ -1,0 +1,15 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    background-color: #ec3939;
+}
+
+h3 {
+    color: navy;
+    margin-left: 20px;
+}
+
+/* Example media query for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styling for smaller screens */
+}

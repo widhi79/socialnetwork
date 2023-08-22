@@ -1,0 +1,126 @@
+/* Example CSS for header */
+header {
+    background-color: #ec3939;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header-top {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    flex: 4; /* Atur lebar untuk title */
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  
+  .search-bar {
+    flex: 4; /* Atur lebar untuk search bar */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 100%; /* Biarkan elemen input mencakup ruang yang tersedia */
+    padding: 5px;
+  }
+  
+  .search-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .upload-button {
+    flex: 1; /* Atur lebar untuk tombol upload */
+    display: flex;
+    align-items: center;
+    background-color: #dbd5d5;
+    color: #eb4242;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10%;
+  }
+  
+  .upload-icon {
+    width: 16px; /* Atur ukuran ikon sesuai kebutuhan */
+    height: 16px;
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+  }
+  
+  .upload-text {
+    font-weight: bold;
+  }
+
+  .user-profile {
+    flex: 3; /* Atur lebar untuk user profile section */
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+  
+  .user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .user-settings-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .header-menu {
+    background-color: #eb4242;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    padding: 10px 10px;
+  }
+  
+  .menu-list li:last-child {
+    border-bottom: none; /* Hilangkan garis bawah pada elemen terakhir */
+  }
+
+  .menu-list li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-list li a:hover {
+    text-decoration: underline;
+  }
+  
